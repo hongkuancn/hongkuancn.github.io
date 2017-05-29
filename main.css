@@ -1,0 +1,34 @@
+body{
+  color: #5a5a5a;
+}
+
+.container-fluid,
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.form-group {
+  margin: 13px 60px 13px 13px;
+}
+
+#endparagraph {
+  margin: 13px;
+}
+
+li {
+  font-family: Itim, cursive;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 400px) {
+  .carousel-control {
+    bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-control {
+    bottom: 30px;
+  }
+}
