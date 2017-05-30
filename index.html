@@ -13,122 +13,127 @@
   <body>
 
     <!-- navbar -->
-    <div class="navbar-wrapper" id="navbar">
-      <div class="container-fluid">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <a href="#" class="navbar-brand">Hongkuan</a>
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="mydropdown">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Hongkuan</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="mydropdown">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
       </div>
-    </div>
+    </nav>
+
     <!--end #navbar    -->
 
-    <!-- Portfolio slides-->
-    <a name="portfolio"></a>
-    <div id="portfolio" class="container">
-      <div class="carousel slide" id="myslide" data-ride="carousel">
 
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myslide" data-slide-to="0" class="active"></li>
-          <li data-target="#myslide" data-slide-to="1"></li>
-          <li data-target="#myslide" data-slide-to="2"></li>
-        </ol>
+        <!-- Portfolio slides-->
+        <a name="portfolio"></a>
+        <div id="portfolio">
+          <div class="text-center">
+            <div class="carousel slide" id="myslide" data-ride="carousel">
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="http://mgt.sjp.ac.lk/ent/wp-content/uploads/2015/03/coming-soon-bigger-600x600.jpg" alt="Stockholm" class="center-block img-responsive" />
-            <div class="carousel-caption">
-              <h2>Theme of the artwork</h2>
-            </div>
-          </div>
-          <div class="item">
-            <img src="https://www.nordicvisitor.com/images/sweden/stockholm-sweden-winter-(2).jpg" alt="Stockholm" class="center-block img-responsive"/>
-            <div class="carousel-caption">
-              <h2>Stockholm in winter</h2>
-            </div>
-          </div>
-          <div class="item">
-            <img src="https://www.scandichotels.se/imagevault/publishedmedia/99p8dh6sthc5lnhldjvf/stockholm-sweden-city.jpg" alt="Stockholm" class="center-block img-responsive"/>
-            <div class="carousel-caption">
-              <h2>Beautiful Stockholm</h2>
-            </div>
-          </div>
-        </div>
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myslide" data-slide-to="0" class="active"></li>
+                <li data-target="#myslide" data-slide-to="1"></li>
+                <li data-target="#myslide" data-slide-to="2"></li>
+              </ol>
 
-        <!-- Controls -->
-        <a href="#myslide" class="left carousel-control" data-slide="prev">
-          <span class="icon-prev"></span>
-        </a>
-        <a href="#myslide" class="right carousel-control" data-slide="next">
-          <span class="icon-next"></span>
-        </a>
-      </div>
-    </div>
-    <!-- end Portfolio slides-->
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/slide_3.png" alt="" class="center-block img-responsive img-full" />
+                  <div class="carousel-caption">
+                    <h2>Theme of the artwork</h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/slide_2.png" alt="" class="center-block img-responsive img-full"/>
+                  <div class="carousel-caption">
+                    <h2 class="text-primary">Timestamp Microservice</h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/slide_3.png" alt="" class="center-block img-responsive img-full"/>
+                  <div class="carousel-caption">
+                    <h2>Beautiful Stockholm</h2>
+                  </div>
+                </div>
+              </div>
 
-    <!-- Who am I -->
-    <a name="about"></a>
-    <div id="about" class="container">
-      <div class="row">
-
-        <!-- Description -->
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <h2>Oh, Hello!</h2>
-          <p class="text-justify">My name is Hongkuan. I am living in beautiful Stockholm at the moment. I am fond of football, music, reading and fell in love with coding recently. With the help of FCC, I am on my way to becoming a front end developer.</p>
-        </div>
-
-        <!-- My Photo -->
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <img src="https://c1.staticflickr.com/5/4165/34612589222_3f4f86dd78_n.jpg" alt="Me" class="img-responsive img-circle" style="padding:12%;" />
-        </div>
-      </div>
-    </div>
-    <!-- end who am I -->
-
-    <!-- Contact Info -->
-    <a name="contact"></a>
-    <div id="contact" class="container bg-info" style="padding:50px;border-radius:13px;">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Name" />
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="E-mail address" />
-          </div>
-          <div class="form-group">
-            <input type="text" placeholder="Messege" class="form-control"/>
-          </div>
-          <button class="btn btn-default" style="margin-left:13px;">Send</button>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <div id="endparagraph">
-            <p style="font-family:Overlock,cursive;font-size:24px;" class="text-justify">If you have any question about me or my webpage, feel free to contact me. I would reply to you A.S.A.P.</p>
-            <div class="text-center" style="margin-top:40px;">
-              <p id="footer">&copy; Copyright <a href="https://www.freecodecamp.com/hongkuan-wang" target="_blank">Hongkuan Wang</a> 2016 All rights reserved.</p>
+              <!-- Controls -->
+              <a href="#myslide" class="left carousel-control" data-slide="prev">
+                <span class="icon-prev"></span>
+              </a>
+              <a href="#myslide" class="right carousel-control" data-slide="next">
+                <span class="icon-next"></span>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- end Contact Info -->
+        <!-- end Portfolio slides-->
+
+        <!-- Who am I -->
+        <a name="about"></a>
+        <div id="about" class="container">
+          <div class="row">
+
+            <!-- Description -->
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <h2>Oh, Hello!</h2>
+              <p class="text-justify">My name is Hongkuan. I am living in beautiful Stockholm at the moment. I am fond of football, music, reading and fell in love with coding recently. With the help of FCC, I am on my way to becoming a front end developer.</p>
+            </div>
+
+            <!-- My Photo -->
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <img src="https://c1.staticflickr.com/5/4165/34612589222_3f4f86dd78_n.jpg" alt="Me" class="img-responsive img-circle" style="padding:12%;" />
+            </div>
+          </div>
+        </div>
+        <!-- end who am I -->
+
+
+        <!-- Contact Info -->
+        <a name="contact"></a>
+        <div id="contact" class="container bg-info" style="padding:50px;border-radius:13px;">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="E-mail address" />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Messege" class="form-control"/>
+              </div>
+              <button class="btn btn-default" style="margin-left:13px;">Send</button>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div id="endparagraph">
+                <p style="font-family:Overlock,cursive;font-size:24px;" class="text-justify">If you have any question about me or my webpage, feel free to contact me. I would reply to you A.S.A.P.</p>
+                <div class="text-center" style="margin-top:40px;">
+                  <p id="footer">&copy; Copyright <a href="https://www.freecodecamp.com/hongkuan-wang" target="_blank">Hongkuan Wang</a> 2016 All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end Contact Info -->
 
     <!-- jQuery -->
     <script   src="js/jquery.js"></script>
