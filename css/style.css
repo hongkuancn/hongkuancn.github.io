@@ -8,12 +8,37 @@ body{
   max-width: 980px;
 }
 
+#portfolio {
+  margin-top:52px;
+}
+
+#about>div>div {
+  padding-top: 10%;
+}
+
 .form-group {
   margin: 13px 60px 13px 13px;
 }
 
 #endparagraph {
   margin: 13px;
+}
+
+.navbar-brand {
+  font-family:Pacifico,cursive;
+  font-size:25px;
+}
+
+#about h2 {
+  font-family:Chewy,cursive;
+  font-size:70px;
+  padding-left:10px;"
+}
+
+#about p {
+  font-family:PT sans,sans-serif;
+  font-size:22px;
+  padding:5px;
 }
 
 li {
