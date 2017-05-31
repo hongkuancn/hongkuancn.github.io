@@ -2,6 +2,11 @@ body{
   color: #5a5a5a;
 }
 
+#navbar li {
+  font-family: Itim, cursive;
+  font-size: 20px;
+}
+
 #about, #contact {
   max-width: 920px;
 }
@@ -10,16 +15,8 @@ body{
   margin-top:50px;
 }
 
-#about>div>div {
-  padding-top: 10%;
-}
-
 #endparagraph {
   margin: 13px;
-}
-
-.form-group {
-  margin: 13px 60px 13px 13px;
 }
 
 .navbar-brand {
@@ -43,9 +40,40 @@ body{
   padding:5px;
 }
 
-li {
-  font-family: Itim, cursive;
-  font-size: 20px;
+#about img {
+   padding:10%;
+}
+
+#description {
+  padding-top: 8%;
+}
+
+#contact {
+  padding:50px;
+  border-radius:13px;
+}
+
+#contact i {
+   font-size: 28px;
+}
+
+#endparagraph>p {
+   font-family:Overlock,cursive;
+   font-size:24px;
+}
+
+#endparagraph>div {
+   margin-top:40px;
+}
+
+#media-link ul {
+
+  margin: 40px 0 0 80px;
+  list-style-type: none;
+}
+
+#media-link li {
+  margin-bottom: 20px;
 }
 
 /*@media screen and (min-width: 400px) {

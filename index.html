@@ -3,18 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfolio Page</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran|Chewy|Itim|Overlock|Pacifico" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Font-Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran|Chewy|Itim|Overlock|Pacifico" rel="stylesheet">
   </head>
   <body>
 
     <!-- navbar -->
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
       <div class="container">
 
         <div class="navbar-header">
@@ -62,15 +65,24 @@
                   </div>
                 </div>
                 <div class="item">
-                  <img src="img/slide_2.png" alt="" class="center-block img-responsive img-full"/>
+                  <a target="_blank" href="https://github.com/hongkuancn/fccproj-timestamp/">
+                    <img src="img/slide_2.png" alt="back-end project 2400×1100" class="center-block img-responsive img-full"/>
+                  </a>
                   <div class="carousel-caption">
-                    <h2 class="text-primary">Timestamp Microservice</h2>
+                    <h2 class="text-muted">
+                      <strong>Timestamp Microservice</strong>
+                    </h2>
+                    <h3 class="text-muted">
+                      <strong>Backend Project</strong>
+                    </h3>
                   </div>
                 </div>
                 <div class="item">
                   <img src="img/slide_3.png" alt="" class="center-block img-responsive img-full"/>
                   <div class="carousel-caption">
-                    <h2>Beautiful Stockholm</h2>
+                    <h2>
+
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -93,14 +105,14 @@
           <div class="row">
 
             <!-- Description -->
-            <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6" id="description">
               <h2>Oh, Hello!</h2>
-              <p class="text-justify">My name is Hongkuan. I am living in beautiful Stockholm at the moment. I am fond of football, music, reading and fell in love with coding recently. With the help of FCC, I am on my way to becoming a front end developer.</p>
+              <p class="text-justify">My name is Hongkuan. I am living in beautiful Stockholm at the moment. I am fond of football, music, reading and fell in love with coding recently. I am on my way to becoming a front end developer.</p>
             </div>
 
             <!-- My Photo -->
             <div class="col-xs-12 col-sm-6 col-md-6">
-              <img src="https://c1.staticflickr.com/5/4165/34612589222_3f4f86dd78_n.jpg" alt="Me" class="img-responsive img-circle" style="padding:12%;" />
+              <img src="https://c1.staticflickr.com/5/4165/34612589222_3f4f86dd78_n.jpg" alt="Me" class="img-responsive img-circle"/>
             </div>
           </div>
         </div>
@@ -109,27 +121,22 @@
 
         <!-- Contact Info -->
         <a name="contact"></a>
-        <div id="contact" class="container bg-info" style="padding:50px;border-radius:13px;">
+        <div id="contact" class="container bg-info">
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Name" />
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="E-mail address" />
-              </div>
-              <div class="form-group">
-                <input type="text" placeholder="Messege" class="form-control"/>
-              </div>
-              <button class="btn btn-default" style="margin-left:13px;">Send</button>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
               <div id="endparagraph">
-                <p style="font-family:Overlock,cursive;font-size:24px;" class="text-justify">If you have any question about me or my webpage, feel free to contact me. I would reply to you A.S.A.P.</p>
-                <div class="text-center" style="margin-top:40px;">
-                  <p id="footer">&copy; Copyright <a href="https://www.freecodecamp.com/hongkuan-wang" target="_blank">Hongkuan Wang</a> 2016 All rights reserved.</p>
+                <p class="text-justify">If you have any question about me or my webpage, please catch me with the links on the right. I would reply to you A.S.A.P.</p>
+                <div class="text-center">
+                  <p id="footer">&copy; Copyright <strong>Hongkuan Wang</strong> 2017 All rights reserved.</p>
                 </div>
               </div>
+            </div>
+            <div id="media-link" class="col-xs-12 col-sm-6 col-md-6">
+              <ul>
+                <li><a target="_blank" href="https://www.linkedin.com/in/hongkuan-wang-249069110/"><i class="fa fa-linkedin-square" aria-hidden="false">  Linkedin</i></a></li>
+                <li><a target="_blank" href="https://github.com/hongkuancn"><i class="fa fa-github-square" aria-hidden="false">  GitHub</i></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/hongkuan.wang.9/"><i class="fa fa-facebook-square" aria-hidden="false">  Facebook</i></a></li>
+              </ul>
             </div>
           </div>
         </div>
