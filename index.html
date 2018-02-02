@@ -11,12 +11,11 @@
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran|Chewy|Itim|Overlock|Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Inconsolata|Catamaran|Chewy|Itim|Overlock|Pacifico" rel="stylesheet">
 </head>
 <body>
 
   <!-- navbar -->
-
   <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
     <div class="container">
 
@@ -39,123 +38,196 @@
 
     </div>
   </nav>
-
   <!--end #navbar    -->
 
+  <!-- portfolio -->
+  <a name="portfolio"></a>
+  <div class="container" id="portfolio">
 
-      <!-- Portfolio slides-->
-      <a name="portfolio"></a>
-      <div id="portfolio">
-        <div class="text-center">
-          <div class="carousel slide" id="myslide" data-ride="carousel">
+    <div class="portfolio-entry">
+      <div class="portfolio-img">
+        <img src="img/todo.png" class="img-rounded">
+      </div>
+      <div class="portfolio-text">
+        <h1>Todo List</h1>
+        <p class="portfolio-prop">
+          <b>Description</b>
+          <span>
+            A full-stack project showcasing a todo list
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Technologies&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b>
+          <span>
+            React, Redux, NodeJS, ExpressJS, MongoDB, AWS, Heroku, REST API, Bootstrap, create-react-app
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Github</b>
+          <span>
+            <a target="_blank"  href="https://github.com/hongkuancn/todo-list">/hongkuancn/todo-list</a>
+          </span>
+        </p>
+      </div>
+    </div>
 
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myslide" data-slide-to="0" class="active"></li>
-              <li data-target="#myslide" data-slide-to="1"></li>
-              <li data-target="#myslide" data-slide-to="2"></li>
-            </ol>
+    <div class="portfolio-entry">
+      <!-- <div class="padding"></div> -->
+      <div class="portfolio-text">
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <a href="http://hongkuancn2.surge.sh" target="_blank">
-                  <img src="img/slide_1.png" alt="" class="center-block img-responsive img-full" />
-                </a>
-                <div class="carousel-caption">
-                  <h2 class="text-white">
-                    <strong>Random Quote Machine</strong>
-                  </h2>
-                  <h3 class="text-white">
-                    <strong>Frontend Project</strong>
-                  </h3>
-                </div>
-              </div>
-              <div class="item">
-                <a target="_blank" href="https://frozen-hamlet-98229.herokuapp.com/">
-                  <img src="img/slide_2.png" alt="back-end project 2400×1100" class="center-block img-responsive img-full"/>
-                </a>
-                <div class="carousel-caption">
-                  <h2 class="text-muted">
-                    <strong>Timestamp Microservice</strong>
-                  </h2>
-                  <h3 class="text-muted">
-                    <strong>Backend Project</strong>
-                  </h3>
-                </div>
-              </div>
-              <div class="item">
-                <a href="http://hongkuancn3.surge.sh" target="_blank">
-                  <img src="img/slide_3.png" alt="" class="center-block img-responsive img-full"/>
-                </a>
-                <div class="carousel-caption">
-                  <h2 class="text-muted">
+        <h1>Camper Leaderboard</h1>
+        <p class="portfolio-prop">
+          <b>Description</b>
+          <span>
+            A frontend project showcasing the points of members in order
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Technologies&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b>
+          <span>
+            React, Bootstrap, API, Webpack
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Github</b>
+          <span>
+            <a target="_blank"  href="https://github.com/hongkuancn/fccproj-leaderboard">/hongkuancn/fccproj-leaderboard</a>
+          </span>
+        </p>
+      </div>
+      <div class="portfolio-img img-inverted">
+        <img src="img/leaderboard.png" class="img-rounded">
+      </div>
+    </div>
 
-                  </h2>
-                </div>
-              </div>
-            </div>
+    <div class="portfolio-entry">
+      <div class="portfolio-img">
+        <img src="img/weather.png" class="img-rounded">
+      </div>
+      <div class="portfolio-text">
+        <h1>Local Weather App</h1>
+        <p class="portfolio-prop">
+          <b>Description</b>
+          <span>
+            A frontend project showcasing your local weather
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Technologies&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b>
+          <span>
+            jQuery, Bootstrap, Weather API, ExpressJS
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Github</b>
+          <span>
+            <a target="_blank"  href="https://github.com/hongkuancn/fccproj-WeatherApp">/hongkuancn/fccproj-WeatherApp</a>
+          </span>
+        </p>
+      </div>
+    </div>
 
-            <!-- Controls -->
-            <a href="#myslide" class="left carousel-control" data-slide="prev">
-              <span class="icon-prev"></span>
-            </a>
-            <a href="#myslide" class="right carousel-control" data-slide="next">
-              <span class="icon-next"></span>
-            </a>
+    <div class="portfolio-entry">
+      <!-- <div class="padding"></div> -->
+      <div class="portfolio-text">
+
+        <h1>Random Quote Machine</h1>
+        <p class="portfolio-prop">
+          <b>Description</b>
+          <span>
+            A frontend project showcasing random quotes and tweeting them
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Technologies&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b>
+          <span>
+            jQuery, Bootstrap, JSON
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Github</b>
+          <span>
+            <a target="_blank"  href="https://github.com/hongkuancn/fccproj-RandomQuoteMachine">/hongkuancn/fccproj-RandomQuoteMachine</a>
+          </span>
+        </p>
+      </div>
+      <div class="portfolio-img img-inverted">
+        <img src="img/quote.png" class="img-rounded">
+      </div>
+    </div>
+
+    <div class="portfolio-entry">
+      <div class="portfolio-img">
+        <img src="img/timestamp.png" class="img-rounded">
+      </div>
+      <div class="portfolio-text">
+        <h1>Timestamp Microservice</h1>
+        <p class="portfolio-prop">
+          <b>Description</b>
+          <span>
+            A backend project converting time format
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Technologies&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</b>
+          <span>
+            ExpressJS, regular expression, Heroku
+          </span>
+        </p>
+        <p class="portfolio-prop">
+          <b>Github</b>
+          <span>
+            <a target="_blank"  href="https://github.com/hongkuancn/fccproj-timestamp">/hongkuancn/fccproj-timestamp</a>
+          </span>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <!-- end portfolio -->
+
+  <!-- Who am I -->
+  <a name="about"></a>
+  <div id="about" class="container">
+    <div class="row">
+
+      <!-- Description -->
+      <div class="col-xs-12 col-sm-6 col-md-6" id="description">
+        <h2>Oh, Hello!</h2>
+        <p class="text-justify">My name is Hongkuan. I am living in beautiful Stockholm at the moment. I am fond of football, music, reading and fell in love with web development. I am on my way to becoming a web developer.</p>
+      </div>
+
+      <!-- My Photo -->
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <img src="https://c1.staticflickr.com/5/4165/34612589222_3f4f86dd78_n.jpg" alt="Me" class="img-responsive img-circle"/>
+      </div>
+    </div>
+  </div>
+  <!-- end who am I -->
+
+
+  <!-- Contact Info -->
+  <a name="contact"></a>
+  <div id="contact" class="container bg-info">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <div id="endparagraph">
+          <p class="text-justify">If you have any question about me or my webpage, please catch me with the links on the right. I would reply to you A.S.A.P.</p>
+          <div class="text-center">
+            <p id="footer">&copy; Copyright <strong>Hongkuan Wang</strong> 2018 All rights reserved.</p>
           </div>
         </div>
       </div>
-      <!-- end Portfolio slides-->
-
-      <!-- Who am I -->
-      <a name="about"></a>
-      <div id="about" class="container">
-        <div class="row">
-
-          <!-- Description -->
-          <div class="col-xs-12 col-sm-6 col-md-6" id="description">
-            <h2>Oh, Hello!</h2>
-            <p class="text-justify">My name is Hongkuan. I am living in beautiful Stockholm at the moment. I am fond of football, music, reading and fell in love with coding recently. I am on my way to becoming a front end developer.</p>
-          </div>
-
-          <!-- My Photo -->
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <img src="https://c1.staticflickr.com/5/4165/34612589222_3f4f86dd78_n.jpg" alt="Me" class="img-responsive img-circle"/>
-          </div>
-        </div>
+      <div id="media-link" class="col-xs-12 col-sm-6 col-md-6">
+        <ul>
+          <li><a target="_blank" href="https://www.linkedin.com/in/hongkuan-wang-249069110/"><i class="fa fa-linkedin-square" aria-hidden="false">  Linkedin</i></a></li>
+          <li><a target="_blank" href="https://github.com/hongkuancn"><i class="fa fa-github-square" aria-hidden="false">  GitHub</i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/hongkuan.wang.9/"><i class="fa fa-facebook-square" aria-hidden="false">  Facebook</i></a></li>
+        </ul>
       </div>
-      <!-- end who am I -->
+    </div>
+  </div>
+  <!-- end Contact Info -->
 
-
-      <!-- Contact Info -->
-      <a name="contact"></a>
-      <div id="contact" class="container bg-info">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <div id="endparagraph">
-              <p class="text-justify">If you have any question about me or my webpage, please catch me with the links on the right. I would reply to you A.S.A.P.</p>
-              <div class="text-center">
-                <p id="footer">&copy; Copyright <strong>Hongkuan Wang</strong> 2017 All rights reserved.</p>
-              </div>
-            </div>
-          </div>
-          <div id="media-link" class="col-xs-12 col-sm-6 col-md-6">
-            <ul>
-              <li><a target="_blank" href="https://www.linkedin.com/in/hongkuan-wang-249069110/"><i class="fa fa-linkedin-square" aria-hidden="false">  Linkedin</i></a></li>
-              <li><a target="_blank" href="https://github.com/hongkuancn"><i class="fa fa-github-square" aria-hidden="false">  GitHub</i></a></li>
-              <li><a target="_blank" href="https://www.facebook.com/hongkuan.wang.9/"><i class="fa fa-facebook-square" aria-hidden="false">  Facebook</i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- end Contact Info -->
-
-  <!-- jQuery -->
-  <script   src="js/jquery.js"></script>
-  <!-- Bootstrap JavaScript -->
-  <script src="js/bootstrap.js"></script>
-  <!-- custom js -->
-  <script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>

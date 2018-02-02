@@ -1,5 +1,64 @@
-body{
+body, html {
   color: #5a5a5a;
+  margin: 0;
+  font-family: "Open Sans";
+  font-size: 16px;
+  background: #DFE2DB;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.portfolio-entry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.portfolio-entry .portfolio-img {
+  flex-grow: 0;
+  max-width: 50%;
+  width: 50%;
+  /* clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%); */
+}
+
+img {
+  width: 100%;
+}
+
+.portfolio-entry .portfolio-text {
+  width: 50%;
+  padding: 0 0 0 2em;
+  padding-top: 0;
+}
+
+.portfolio-entry .portfolio-text h1{
+  font-family: Acme;
+  font-weight: 1000;
+}
+
+.portfolio-entry .img-inverted {
+  /* clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%); */
+}
+
+.portfolio-prop {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio-prop b {
+  width: 25%;
+}
+
+.portfolio-prop span {
+  display: inline;
 }
 
 #navbar li {
@@ -7,7 +66,7 @@ body{
   font-size: 20px;
 }
 
-#about, #contact {
+ #about, #contact {
   max-width: 920px;
 }
 
@@ -22,10 +81,6 @@ body{
 .navbar-brand {
   font-family:Pacifico,cursive;
   font-size:25px;
-}
-
-.img-full {
-    min-width: 100%;
 }
 
 #about h2 {
@@ -75,15 +130,3 @@ body{
 #media-link li {
   margin-bottom: 20px;
 }
-
-/*@media screen and (min-width: 400px) {
-  .carousel-control {
-    bottom: 10%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .carousel-control {
-    bottom: 30px;
-  }
-}*/
