@@ -48,6 +48,17 @@ img {
   /* clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%); */
 }
 
+.imgframe{
+  border-width: 15px;
+  border-style: solid;
+  padding: 10px;
+  border-top-color: #4D4D4D;
+  border-right-color: #000;
+  border-bottom-color: #4D4D4D;
+  border-left-color: #000;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.6);
+}
+
 .portfolio-prop {
   display: flex;
   flex-direction: row;
