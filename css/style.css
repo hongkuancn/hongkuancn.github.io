@@ -43,6 +43,10 @@ img {
   padding-top: 0;
 }
 
+.portfolio-entry-right .portfolio-text {
+  padding: 0 2em 0 2em;
+}
+
 .portfolio-entry .portfolio-text h1{
   font-family: Acme;
   font-weight: 1000;
@@ -85,7 +89,7 @@ img {
 }
 
 #portfolio {
-  margin-top:50px;
+  margin-top:80px;
 }
 
 #endparagraph {
