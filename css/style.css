@@ -82,6 +82,7 @@ img {
 #navbar li {
   font-family: Itim, cursive;
   font-size: 20px;
+  cursor: pointer;
 }
 
  #about, #contact {
