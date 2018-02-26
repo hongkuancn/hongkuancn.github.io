@@ -40,11 +40,11 @@ img {
 .portfolio-entry .portfolio-text {
   width: 50%;
   padding: 0 0 0 2em;
-  padding-top: 0;
 }
 
 .portfolio-entry-right .portfolio-text {
-  padding: 0 2em 0 2em;
+  width: 50%;
+  padding: 0 2em 0 0;
 }
 
 .portfolio-entry .portfolio-text h1{
@@ -148,7 +148,8 @@ img {
   margin-bottom: 20px;
 }
 
-@media all and (max-width: 800px){
+/* Tablet */
+@media screen and (max-width: 800px){
   .portfolio-entry-left {
     display: flex;
     display: -webkit-flex;
@@ -164,11 +165,18 @@ img {
   .portfolio-entry .portfolio-text {
     width: 100%;
     padding: 0 0 0 2em;
-    padding-top: 0;
   }
   .portfolio-entry .portfolio-img {
     flex-grow: 0;
     max-width: 100%;
     width: 100%;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px){
+  .portfolio-entry .portfolio-text {
+    width: 100%;
+    padding: 0;
   }
 }
